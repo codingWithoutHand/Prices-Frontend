@@ -1,0 +1,66 @@
+:root {
+    font-family: 'Noto Sans KR', sans-serif !important;
+    
+    /* --bg: #0f1421;
+    --btn: #272b38;
+    --txt: #cfcfcf;
+    --border: #303540;
+    --section: #191f2c; */
+
+    --bg: #D8DEE9;
+    --btn: #D8DEE9;
+    --txt: #2E3440;
+    --border: #AAB2CD;
+    --section: #E5E9F0;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--txt);
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    /* background-color: #191f2c; */
+    min-width: 100px;
+    max-width: 480px;
+}
+
+.content {
+    padding: 0px 10px;
+}
+
+button {
+    background-color: var(--btn);
+    color: var(--txt);
+    border: var(--border) 1px solid;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: var(--section);
+    color: var(--txt);
+    border: var(--border) 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
