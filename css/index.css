@@ -27,12 +27,11 @@ body {
 
 .main {
     /* background-color: #191f2c; */
-    min-width: 100px;
-    max-width: 480px;
-}
-
-.content {
-    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-columns: 20% 80%;
+    min-width: 1080px;
+    max-width: 2080px;
 }
 
 button {
@@ -44,23 +43,39 @@ button {
     margin-bottom: 10px;
 }
 
+.value {
+    text-align: center;
+    color: #BF616A;
+}
+
+.value .price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 section {
     background-color: var(--section);
     color: var(--txt);
     border: var(--border) 1px solid;
     border-radius: 10px;
     margin: 10px;
-    padding: 5px 15px;
+    padding: 5px 25px;
+    font-size: 14px;
 }
 
 .title {
     text-align: center;
 }
 
-.map {
-    height: 400px;
+.menu {
     width: 100%;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+}
+
+.menu section {
+    display: flex;
+    flex-direction: column;
+}
+
+.graph {
+    height: 300px;
 }
