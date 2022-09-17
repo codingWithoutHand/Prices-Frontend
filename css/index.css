@@ -12,27 +12,41 @@
     --txt: #2E3440;
     --border: #AAB2CD;
     --section: #E5E9F0;
+    --red: #ff4f63;
+    --pink: #ff6384;
+    --blue: #1e69fe;
 }
 
-body {
-    background-color: var(--bg);
-    color: var(--txt);
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (min-width: 880px) {
+    body {
+        background-color: var(--bg);
+        color: var(--txt);
+        font-size: 12px;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+    }
+    
+    .main {
+        /* background-color: #191f2c; */
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-columns: 20% 80%;
+        min-width: 880px;
+        max-width: 1580px;
+    }
+
+    .menu section {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-.main {
-    /* background-color: #191f2c; */
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-columns: 20% 80%;
-    min-width: 1080px;
-    max-width: 2080px;
-}
+
 
 button {
     background-color: var(--btn);
@@ -45,13 +59,14 @@ button {
 
 .value {
     text-align: center;
-    color: #BF616A;
+    color: var(--pink);
 }
 
 .value .price {
     font-size: 24px;
     font-weight: bold;
 }
+
 
 section {
     background-color: var(--section);
@@ -71,11 +86,38 @@ section {
     width: 100%;
 }
 
-.menu section {
-    display: flex;
-    flex-direction: column;
+
+
+.chart {
+    height: 300px;
 }
 
-.graph {
-    height: 300px;
+
+@media screen and (max-width: 880px) {
+    body {
+        background-color: var(--bg);
+        color: var(--txt);
+        font-size: 12px;
+        margin: 0;
+        margin-top: 50px;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: right;
+    }
+
+    button {
+        width: 30%;
+        margin: 5px 3px;
+    }
+
+    .main {
+        display: inline;
+        align-items: center;
+    }
+
+    section {
+        width: 280px;
+    }
 }

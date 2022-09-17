@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link href="./css/index.css" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -13,7 +14,7 @@
         <div class="menu">
             <section>
                 <p>품목 선택</p>
-                <button>기름</button>
+                <button>휘발유</button>
                 <button>기름</button>
                 <button>기름</button>
                 <button>기름</button>
@@ -33,7 +34,7 @@
                 <div class="value">
                     <h2 class="price">1020 (-120)</h2>
                 </div>
-                <div class="graph"></div>
+                <canvas id="chart" class="chart"></canvas>
             </section>
             <section class="footer">
                 <p class="content">© 2022. 손안대고코딩풀기 all rights reserved.</p>

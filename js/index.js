@@ -1,10 +1,38 @@
 class App {
 
     constructor() {
-
         if (this.isDarkMode()) this.changeTheme(true)
 
-        
+        const ctx = document.getElementById('chart').getContext('2d')
+        this.drawChart(ctx)
+    }
+
+    drawChart(ctx) {
+        const labels = [
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+        ]
+    
+        const data = {
+            labels: labels,
+            datasets: [{
+                label: 'd',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [0, 10, 5, 2, 20, 30, 45],
+            }]
+        }
+    
+        const config = {
+            type: 'line',
+            data: data,
+            options: { }
+        }
+        const myChart = new Chart(ctx, config)
     }
 
     /**
