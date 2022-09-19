@@ -1,29 +1,44 @@
 class App {
+    item = './data/rice.json'
 
     constructor() {
         if (this.isDarkMode()) this.changeTheme(true)
 
         const ctx = document.getElementById('chart').getContext('2d')
         this.drawChart(ctx)
+
+        document.getElementById('rice').addEventListener('click', () => {
+            this.myChart.destroy()
+            this.item = './data/rice.json'
+            this.drawChart(ctx)
+        })
+
+        document.getElementById('gasoline').addEventListener('click', () => {
+            this.myChart.destroy()
+            this.item = './data/gasoline.json'
+            this.drawChart(ctx)
+        })
+
+        document.getElementById('sweet-potato').addEventListener('click', () => {
+            this.myChart.destroy()
+            this.item = './data/sweet_potato.json'
+            this.drawChart(ctx)
+        })
     }
 
-    drawChart(ctx) {
-        const labels = [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-        ]
+    async drawChart(ctx) {
+        const jsonData = await (await fetch(this.item)).json()
+        
+        const labels = jsonData.map(v => v.date)
+        const price_data = jsonData.map(v => v.price)
     
         const data = {
             labels: labels,
             datasets: [{
-                label: 'd',
+                label: '가격 (원)',
                 backgroundColor: 'rgb(255, 99, 132)',
                 borderColor: 'rgb(255, 99, 132)',
-                data: [0, 10, 5, 2, 20, 30, 45],
+                data: price_data,
             }]
         }
     
@@ -32,7 +47,7 @@ class App {
             data: data,
             options: { }
         }
-        const myChart = new Chart(ctx, config)
+        this.myChart = new Chart(ctx, config)
     }
 
     /**
