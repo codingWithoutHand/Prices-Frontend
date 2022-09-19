@@ -31,6 +31,8 @@ class App {
         
         const labels = jsonData.map(v => v.date)
         const price_data = jsonData.map(v => v.price)
+
+        document.getElementById('price').innerText = price_data[price_data.length - 1] + ' 원'
     
         const data = {
             labels: labels,
