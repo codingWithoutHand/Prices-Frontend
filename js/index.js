@@ -7,21 +7,26 @@ class App {
         const ctx = document.getElementById('chart').getContext('2d')
         this.drawChart(ctx)
 
-        document.getElementById('rice').addEventListener('click', () => {
-            this.myChart.destroy()
-            this.item = './data/rice.json'
-            this.drawChart(ctx)
-        })
+        this.handleItemButtom('rice', './data/rice.json', ctx)
+        this.handleItemButtom('gasoline', './data/gasoline.json', ctx)
+        this.handleItemButtom('sweet-potato', './data/sweet_potato.json', ctx)
 
-        document.getElementById('gasoline').addEventListener('click', () => {
-            this.myChart.destroy()
-            this.item = './data/gasoline.json'
-            this.drawChart(ctx)
-        })
+        const newsList = ['hello', 'asfjaio', 'dafasdf']
+        for (let i = 0; i < newsList.length; i++) {
+            this.showNews(newsList[i])
+            // time sleep
+        }
+    }
 
-        document.getElementById('sweet-potato').addEventListener('click', () => {
+    showNews(news) {
+        const newsText = document.getElementById('news')
+        newsText.innerText = news
+    }
+
+    handleItemButtom(id, item, ctx) {
+        document.getElementById(id).addEventListener('click', () => {
             this.myChart.destroy()
-            this.item = './data/sweet_potato.json'
+            this.item = item
             this.drawChart(ctx)
         })
     }
