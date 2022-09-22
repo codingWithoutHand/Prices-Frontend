@@ -41,12 +41,20 @@ class App {
     
         const data = {
             labels: labels,
-            datasets: [{
-                label: '가격 (원)',
-                backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(255, 99, 132)',
-                data: price_data,
-            }]
+            datasets: [
+                {
+                    label: '가격 (원)',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: price_data,
+                },
+                {
+                    label: '가격 (원)',
+                    backgroundColor: 'rgb(255, 99, 132)',
+                    borderColor: 'rgb(255, 99, 132)',
+                    data: price_data,
+                }
+            ]
         }
     
         const config = {
