@@ -1,5 +1,6 @@
 class App {
     item = './data/price/rice.json'
+    news = null
 
     constructor() {
         if (this.isDarkMode()) this.changeTheme(true)
@@ -16,9 +17,10 @@ class App {
     }
 
     async getNews() {
+        clearInterval(this.news)
         const newsData = await (await fetch(this.item.replace('price', 'news'))).json()
         let i = 0
-        setInterval(() => {
+        this.news = setInterval(() => {
             this.showNews(newsData[i]['article'], newsData[i]['link'])
             console.log(newsData[i]['article'])
             i++
@@ -37,6 +39,7 @@ class App {
             this.myChart.destroy()
             this.item = item
             this.drawChart(ctx)
+            this.getNews()
         })
     }
 
