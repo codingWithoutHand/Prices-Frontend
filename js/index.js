@@ -35,24 +35,26 @@ class App {
         const jsonData = await (await fetch(this.item)).json()
         
         const labels = jsonData.map(v => v.date)
-        const price_data = jsonData.map(v => v.price)
+        const lowPriceData = jsonData.map(v => v.lowPrice)
+        const highPriceData = jsonData.map(v => v.highPrice)
 
-        document.getElementById('price').innerText = price_data[price_data.length - 1] + ' 원'
-    
+        document.getElementById('price').innerText = ('최종 평균 가격: ' + ((Number.parseFloat(lowPriceData[lowPriceData.length - 1]) + Number.parseFloat(highPriceData[highPriceData.length - 1])) / 2) + ' 원')
+        
+        
         const data = {
             labels: labels,
             datasets: [
                 {
-                    label: '가격 (원)',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: price_data,
+                    label: '최소 가격 (원)',
+                    backgroundColor: 'rgb(75, 137, 220)',
+                    borderColor: 'rgb(75, 137, 220)',
+                    data: lowPriceData,
                 },
                 {
-                    label: '가격 (원)',
+                    label: '최대 가격 (원)',
                     backgroundColor: 'rgb(255, 99, 132)',
                     borderColor: 'rgb(255, 99, 132)',
-                    data: price_data,
+                    data: highPriceData,
                 }
             ]
         }
