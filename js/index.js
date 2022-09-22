@@ -11,6 +11,7 @@ class App {
         this.handleItemButtom('gasoline', './data/price/gasoline.json', ctx)
         this.handleItemButtom('sweet-potato', './data/price/sweet_potato.json', ctx)
 
+        Notification.requestPermission()
         this.getNews()
     }
 
@@ -50,6 +51,7 @@ class App {
 
         if (this.item === './data/price/rice.json') {
             document.getElementById('price').innerText = ('최종 평균 가격: ' + Number.parseInt((lowPriceData[lowPriceData.length - 1])) + ' 원')
+            const notice = new Notification('쌀 최종 평균 가격', { body: Number.parseInt((lowPriceData[lowPriceData.length - 1])) + ' 원'})
             data = {
                 labels: labels,
                 datasets: [
@@ -64,6 +66,7 @@ class App {
             }
         } else {
             document.getElementById('price').innerText = ('최종 평균 가격: ' + ((Number.parseFloat(lowPriceData[lowPriceData.length - 1]) + Number.parseFloat(highPriceData[highPriceData.length - 1])) / 2) + ' 원')
+            const notice = new Notification('최종 평균 가격', { body: (Number.parseFloat(lowPriceData[lowPriceData.length - 1]) + Number.parseFloat(highPriceData[highPriceData.length - 1])) / 2 + ' 원'})
             data = {
                 labels: labels,
                 datasets: [
