@@ -1,1 +1,218 @@
+<<<<<<< HEAD
 [{"date":"2021-01-08","lowPrice":"26904","highPrice":"42352"},{"date":"2021-01-15","lowPrice":"27910","highPrice":"43478"},{"date":"2021-01-22","lowPrice":"28366","highPrice":"43199"},{"date":"2021-01-29","lowPrice":"28237","highPrice":"43380"},{"date":"2021-02-05","lowPrice":"28231","highPrice":"44146"},{"date":"2021-02-19","lowPrice":"29844","highPrice":"45159"},{"date":"2021-02-26","lowPrice":"30400","highPrice":"45855"},{"date":"2021-03-05","lowPrice":"30069","highPrice":"45441"},{"date":"2021-03-12","lowPrice":"29621","highPrice":"44923"},{"date":"2021-03-19","lowPrice":"28911","highPrice":"44012"},{"date":"2021-03-26","lowPrice":"29066","highPrice":"43179"},{"date":"2021-04-02","lowPrice":"29300","highPrice":"44475"},{"date":"2021-04-09","lowPrice":"30415","highPrice":"45280"},{"date":"2021-04-16","lowPrice":"30830","highPrice":"46056"},{"date":"2021-04-23","lowPrice":"31789","highPrice":"47170"},{"date":"2021-04-30","lowPrice":"31939","highPrice":"47375"},{"date":"2021-05-07","lowPrice":"33433","highPrice":"48552"},{"date":"2021-05-14","lowPrice":"33975","highPrice":"49624"},{"date":"2021-05-21","lowPrice":"33190","highPrice":"48556"},{"date":"2021-05-28","lowPrice":"33745","highPrice":"48405"},{"date":"2021-06-04","lowPrice":"32519","highPrice":"47757"},{"date":"2021-06-11","lowPrice":"31933","highPrice":"47330"},{"date":"2021-06-18","lowPrice":"31082","highPrice":"46627"},{"date":"2021-06-25","lowPrice":"28887","highPrice":"43793"},{"date":"2021-07-02","lowPrice":"25680","highPrice":"41605"},{"date":"2021-07-09","lowPrice":"25152","highPrice":"40151"},{"date":"2021-07-16","lowPrice":"25958","highPrice":"42549"},{"date":"2021-07-23","lowPrice":"29452","highPrice":"44319"},{"date":"2021-07-30","lowPrice":"30272","highPrice":"45996"},{"date":"2021-08-06","lowPrice":"29067","highPrice":"44201"},{"date":"2021-08-13","lowPrice":"26055","highPrice":"41195"},{"date":"2021-08-20","lowPrice":"22616","highPrice":"38266"},{"date":"2021-08-27","lowPrice":"21864","highPrice":"37033"},{"date":"2021-09-03","lowPrice":"21591","highPrice":"36821"},{"date":"2021-09-10","lowPrice":"21377","highPrice":"36927"},{"date":"2021-09-17","lowPrice":"20364","highPrice":"36045"},{"date":"2021-09-24","lowPrice":"18027","highPrice":"33605"},{"date":"2021-10-01","lowPrice":"16674","highPrice":"32168"},{"date":"2021-10-08","lowPrice":"16445","highPrice":"31829"},{"date":"2021-10-15","lowPrice":"16257","highPrice":"31748"},{"date":"2021-10-22","lowPrice":"16467","highPrice":"31209"},{"date":"2021-10-29","lowPrice":"15101","highPrice":"30337"},{"date":"2021-11-05","lowPrice":"14675","highPrice":"31049"},{"date":"2021-11-12","lowPrice":"15276","highPrice":"30753"},{"date":"2021-11-19","lowPrice":"16658","highPrice":"31914"},{"date":"2021-11-26","lowPrice":"17189","highPrice":"32459"},{"date":"2021-12-03","lowPrice":"16776","highPrice":"32652"},{"date":"2021-12-10","lowPrice":"15564","highPrice":"30923"},{"date":"2021-12-17","lowPrice":"15673","highPrice":"30686"},{"date":"2021-12-24","lowPrice":"14794","highPrice":"30946"},{"date":"2021-12-31","lowPrice":"15876","highPrice":"31732"},{"date":"2022-01-07","lowPrice":"17064","highPrice":"32549"},{"date":"2022-01-14","lowPrice":"18242","highPrice":"33294"},{"date":"2022-01-21","lowPrice":"18201","highPrice":"33419"},{"date":"2022-01-28","lowPrice":"17936","highPrice":"33736"},{"date":"2022-02-04","lowPrice":"17984","highPrice":"33592"},{"date":"2022-02-11","lowPrice":"18064","highPrice":"34125"},{"date":"2022-02-18","lowPrice":"18175","highPrice":"34346"},{"date":"2022-02-25","lowPrice":"19839","highPrice":"35013"},{"date":"2022-03-04","lowPrice":"19656","highPrice":"34689"},{"date":"2022-03-11","lowPrice":"18707","highPrice":"34446"},{"date":"2022-03-18","lowPrice":"17916","highPrice":"32969"},{"date":"2022-03-25","lowPrice":"17231","highPrice":"33384"},{"date":"2022-04-01","lowPrice":"17646","highPrice":"33328"},{"date":"2022-04-08","lowPrice":"18474","highPrice":"34511"},{"date":"2022-04-15","lowPrice":"19285","highPrice":"35008"},{"date":"2022-04-22","lowPrice":"19451","highPrice":"35068"},{"date":"2022-04-29","lowPrice":"20414","highPrice":"35677"},{"date":"2022-05-06","lowPrice":"21123","highPrice":"36702"},{"date":"2022-05-13","lowPrice":"21708","highPrice":"37215"},{"date":"2022-05-20","lowPrice":"22126","highPrice":"37089"},{"date":"2022-06-03","lowPrice":"20935","highPrice":"36866"},{"date":"2022-06-10","lowPrice":"20325","highPrice":"35520"},{"date":"2022-06-17","lowPrice":"19744","highPrice":"34443"},{"date":"2022-06-24","lowPrice":"17685","highPrice":"32703"},{"date":"2022-07-01","lowPrice":"14557","highPrice":"30544"},{"date":"2022-07-08","lowPrice":"13811","highPrice":"29426"},{"date":"2022-07-15","lowPrice":"13919","highPrice":"29734"},{"date":"2022-07-22","lowPrice":"16963","highPrice":"31705"},{"date":"2022-07-29","lowPrice":"18708","highPrice":"33500"},{"date":"2022-08-05","lowPrice":"17793","highPrice":"32332"},{"date":"2022-08-12","lowPrice":"14210","highPrice":"29467"},{"date":"2022-08-19","lowPrice":"10807","highPrice":"26695"},{"date":"2022-08-26","lowPrice":"10031","highPrice":"25180"},{"date":"2022-09-02","lowPrice":"9789","highPrice":"25077"},{"date":"2022-09-16","lowPrice":"8828","highPrice":"24061"},{"date":"2022-09-17","lowPrice":"12002","highPrice":"27124"},{"date":"2022-09-18","lowPrice":"11481","highPrice":"27334"},{"date":"2022-09-19","lowPrice":"9432","highPrice":"25098"},{"date":"2022-09-20","lowPrice":"10281","highPrice":"25430"},{"date":"2022-09-21","lowPrice":"9076","highPrice":"24917"},{"date":"2022-09-22","lowPrice":"4088","highPrice":"19225"},{"date":"2022-09-23","lowPrice":"6529","highPrice":"21983"},{"date":"2022-09-24","lowPrice":"9848","highPrice":"25497"},{"date":"2022-09-25","lowPrice":"9182","highPrice":"24756"},{"date":"2022-09-26","lowPrice":"6512","highPrice":"22982"},{"date":"2022-09-27","lowPrice":"8594","highPrice":"24172"},{"date":"2022-09-28","lowPrice":"7980","highPrice":"23425"},{"date":"2022-09-29","lowPrice":"2182","highPrice":"17473"},{"date":"2022-09-30","lowPrice":"5183","highPrice":"20548"},{"date":"2022-10-01","lowPrice":"8517","highPrice":"24047"},{"date":"2022-10-02","lowPrice":"8443","highPrice":"23916"},{"date":"2022-10-03","lowPrice":"6985","highPrice":"21852"},{"date":"2022-10-04","lowPrice":"6974","highPrice":"22500"},{"date":"2022-10-05","lowPrice":"7438","highPrice":"22821"},{"date":"2022-10-06","lowPrice":"1227","highPrice":"16912"},{"date":"2022-10-07","lowPrice":"5002","highPrice":"20476"},{"date":"2022-10-08","lowPrice":"8812","highPrice":"23542"},{"date":"2022-10-09","lowPrice":"8226","highPrice":"23129"},{"date":"2022-10-10","lowPrice":"6481","highPrice":"21681"},{"date":"2022-10-11","lowPrice":"7325","highPrice":"22677"},{"date":"2022-10-12","lowPrice":"6982","highPrice":"22379"},{"date":"2022-10-13","lowPrice":"1975","highPrice":"16532"},{"date":"2022-10-14","lowPrice":"4651","highPrice":"19710"},{"date":"2022-10-15","lowPrice":"7791","highPrice":"23154"},{"date":"2022-10-16","lowPrice":"8497","highPrice":"23839"},{"date":"2022-10-17","lowPrice":"7272","highPrice":"21594"},{"date":"2022-10-18","lowPrice":"7476","highPrice":"22768"},{"date":"2022-10-19","lowPrice":"6562","highPrice":"22655"},{"date":"2022-10-20","lowPrice":"1471","highPrice":"16932"},{"date":"2022-10-21","lowPrice":"4119","highPrice":"19184"},{"date":"2022-10-22","lowPrice":"7799","highPrice":"22939"},{"date":"2022-10-23","lowPrice":"7286","highPrice":"22787"},{"date":"2022-10-24","lowPrice":"5414","highPrice":"20680"},{"date":"2022-10-25","lowPrice":"6304","highPrice":"21854"},{"date":"2022-10-26","lowPrice":"5912","highPrice":"21144"},{"date":"2022-10-27","lowPrice":"548","highPrice":"16199"},{"date":"2022-10-28","lowPrice":"3179","highPrice":"18837"},{"date":"2022-10-29","lowPrice":"6708","highPrice":"22463"},{"date":"2022-10-30","lowPrice":"6616","highPrice":"22123"},{"date":"2022-10-31","lowPrice":"4812","highPrice":"19965"},{"date":"2022-11-01","lowPrice":"6017","highPrice":"21266"},{"date":"2022-11-02","lowPrice":"5354","highPrice":"20818"},{"date":"2022-11-03","lowPrice":"65","highPrice":"15124"},{"date":"2022-11-04","lowPrice":"2512","highPrice":"18533"},{"date":"2022-11-05","lowPrice":"6902","highPrice":"21807"},{"date":"2022-11-06","lowPrice":"6799","highPrice":"21960"},{"date":"2022-11-07","lowPrice":"4959","highPrice":"20615"},{"date":"2022-11-08","lowPrice":"5775","highPrice":"21064"},{"date":"2022-11-09","lowPrice":"5683","highPrice":"20623"},{"date":"2022-11-10","lowPrice":"856","highPrice":"15573"},{"date":"2022-11-11","lowPrice":"3160","highPrice":"18832"},{"date":"2022-11-12","lowPrice":"7249","highPrice":"23472"},{"date":"2022-11-13","lowPrice":"7717","highPrice":"23146"},{"date":"2022-11-14","lowPrice":"6310","highPrice":"20970"},{"date":"2022-11-15","lowPrice":"7023","highPrice":"22215"},{"date":"2022-11-16","lowPrice":"6750","highPrice":"22514"},{"date":"2022-11-17","lowPrice":"1911","highPrice":"16774"},{"date":"2022-11-18","lowPrice":"4505","highPrice":"20397"},{"date":"2022-11-19","lowPrice":"9078","highPrice":"24103"},{"date":"2022-11-20","lowPrice":"9092","highPrice":"24231"},{"date":"2022-11-21","lowPrice":"7408","highPrice":"22460"},{"date":"2022-11-22","lowPrice":"8134","highPrice":"23680"},{"date":"2022-11-23","lowPrice":"7419","highPrice":"22423"},{"date":"2022-11-24","lowPrice":"1877","highPrice":"17483"},{"date":"2022-11-25","lowPrice":"5512","highPrice":"20090"},{"date":"2022-11-26","lowPrice":"8933","highPrice":"24228"},{"date":"2022-11-27","lowPrice":"8689","highPrice":"24517"},{"date":"2022-11-28","lowPrice":"6669","highPrice":"22692"},{"date":"2022-11-29","lowPrice":"7796","highPrice":"23571"},{"date":"2022-11-30","lowPrice":"7499","highPrice":"22380"},{"date":"2022-12-01","lowPrice":"2389","highPrice":"17591"},{"date":"2022-12-02","lowPrice":"5599","highPrice":"19911"},{"date":"2022-12-03","lowPrice":"8519","highPrice":"23942"},{"date":"2022-12-04","lowPrice":"8034","highPrice":"23828"},{"date":"2022-12-05","lowPrice":"6178","highPrice":"22191"},{"date":"2022-12-06","lowPrice":"7135","highPrice":"22661"},{"date":"2022-12-07","lowPrice":"7190","highPrice":"22143"},{"date":"2022-12-08","lowPrice":"1134","highPrice":"16690"},{"date":"2022-12-09","lowPrice":"4464","highPrice":"19422"},{"date":"2022-12-10","lowPrice":"7535","highPrice":"23083"},{"date":"2022-12-11","lowPrice":"7397","highPrice":"22895"},{"date":"2022-12-12","lowPrice":"5332","highPrice":"20480"},{"date":"2022-12-13","lowPrice":"6178","highPrice":"21770"},{"date":"2022-12-14","lowPrice":"6061","highPrice":"21649"},{"date":"2022-12-15","lowPrice":"897","highPrice":"16170"},{"date":"2022-12-16","lowPrice":"3621","highPrice":"18557"},{"date":"2022-12-17","lowPrice":"6490","highPrice":"22132"},{"date":"2022-12-18","lowPrice":"6808","highPrice":"22670"},{"date":"2022-12-19","lowPrice":"5049","highPrice":"20536"},{"date":"2022-12-20","lowPrice":"6254","highPrice":"22037"},{"date":"2022-12-21","lowPrice":"5438","highPrice":"20664"},{"date":"2022-12-22","lowPrice":"883","highPrice":"16127"},{"date":"2022-12-23","lowPrice":"3887","highPrice":"19078"},{"date":"2022-12-24","lowPrice":"7588","highPrice":"22506"},{"date":"2022-12-25","lowPrice":"6986","highPrice":"23057"},{"date":"2022-12-26","lowPrice":"5658","highPrice":"21073"},{"date":"2022-12-27","lowPrice":"7232","highPrice":"21715"},{"date":"2022-12-28","lowPrice":"6556","highPrice":"21703"},{"date":"2022-12-29","lowPrice":"2174","highPrice":"16800"},{"date":"2022-12-30","lowPrice":"4522","highPrice":"19708"},{"date":"2022-12-31","lowPrice":"8288","highPrice":"23222"},{"date":"2023-01-01","lowPrice":"8539","highPrice":"23362"},{"date":"2023-01-02","lowPrice":"6583","highPrice":"22299"},{"date":"2023-01-03","lowPrice":"7448","highPrice":"23173"},{"date":"2023-01-04","lowPrice":"7209","highPrice":"22003"},{"date":"2023-01-05","lowPrice":"2436","highPrice":"17788"},{"date":"2023-01-06","lowPrice":"4986","highPrice":"20610"},{"date":"2023-01-07","lowPrice":"9022","highPrice":"24466"},{"date":"2023-01-08","lowPrice":"8868","highPrice":"24838"},{"date":"2023-01-09","lowPrice":"7539","highPrice":"22694"},{"date":"2023-01-10","lowPrice":"8263","highPrice":"23890"},{"date":"2023-01-11","lowPrice":"8436","highPrice":"22933"},{"date":"2023-01-12","lowPrice":"3262","highPrice":"18010"},{"date":"2023-01-13","lowPrice":"5834","highPrice":"21046"},{"date":"2023-01-14","lowPrice":"9586","highPrice":"24835"},{"date":"2023-01-15","lowPrice":"9939","highPrice":"24916"},{"date":"2023-01-16","lowPrice":"7837","highPrice":"22888"},{"date":"2023-01-17","lowPrice":"8237","highPrice":"23741"},{"date":"2023-01-18","lowPrice":"8028","highPrice":"23158"},{"date":"2023-01-19","lowPrice":"2525","highPrice":"18376"},{"date":"2023-01-20","lowPrice":"5761","highPrice":"21751"},{"date":"2023-01-21","lowPrice":"10239","highPrice":"24844"},{"date":"2023-01-22","lowPrice":"9063","highPrice":"24637"},{"date":"2023-01-23","lowPrice":"7674","highPrice":"23210"},{"date":"2023-01-24","lowPrice":"8495","highPrice":"24313"},{"date":"2023-01-25","lowPrice":"8246","highPrice":"24075"},{"date":"2023-01-26","lowPrice":"2801","highPrice":"18451"},{"date":"2023-01-27","lowPrice":"5832","highPrice":"21492"},{"date":"2023-01-28","lowPrice":"9457","highPrice":"25035"},{"date":"2023-01-29","lowPrice":"9708","highPrice":"24746"},{"date":"2023-01-30","lowPrice":"7854","highPrice":"23098"},{"date":"2023-01-31","lowPrice":"8135","highPrice":"23572"},{"date":"2023-02-01","lowPrice":"8962","highPrice":"23660"},{"date":"2023-02-02","lowPrice":"3270","highPrice":"18605"},{"date":"2023-02-03","lowPrice":"6011","highPrice":"21025"},{"date":"2023-02-04","lowPrice":"9561","highPrice":"24899"},{"date":"2023-02-05","lowPrice":"9755","highPrice":"24867"},{"date":"2023-02-06","lowPrice":"7767","highPrice":"23349"},{"date":"2023-02-07","lowPrice":"8919","highPrice":"23926"},{"date":"2023-02-08","lowPrice":"8665","highPrice":"23851"},{"date":"2023-02-09","lowPrice":"3538","highPrice":"18764"},{"date":"2023-02-10","lowPrice":"6560","highPrice":"21695"},{"date":"2023-02-11","lowPrice":"10141","highPrice":"25103"},{"date":"2023-02-12","lowPrice":"9609","highPrice":"25587"},{"date":"2023-02-13","lowPrice":"8826","highPrice":"23172"},{"date":"2023-02-14","lowPrice":"9390","highPrice":"24714"},{"date":"2023-02-15","lowPrice":"8797","highPrice":"24072"},{"date":"2023-02-16","lowPrice":"3851","highPrice":"19547"},{"date":"2023-02-17","lowPrice":"6383","highPrice":"21762"},{"date":"2023-02-18","lowPrice":"10997","highPrice":"25614"},{"date":"2023-02-19","lowPrice":"10847","highPrice":"25847"},{"date":"2023-02-20","lowPrice":"8720","highPrice":"24051"},{"date":"2023-02-21","lowPrice":"10270","highPrice":"25195"},{"date":"2023-02-22","lowPrice":"9762","highPrice":"24893"},{"date":"2023-02-23","lowPrice":"4522","highPrice":"20015"},{"date":"2023-02-24","lowPrice":"7496","highPrice":"22958"},{"date":"2023-02-25","lowPrice":"11613","highPrice":"26800"},{"date":"2023-02-26","lowPrice":"11281","highPrice":"26247"},{"date":"2023-02-27","lowPrice":"9112","highPrice":"24708"},{"date":"2023-02-28","lowPrice":"10063","highPrice":"25568"},{"date":"2023-03-01","lowPrice":"10168","highPrice":"25220"},{"date":"2023-03-02","lowPrice":"4628","highPrice":"20069"},{"date":"2023-03-03","lowPrice":"7612","highPrice":"23273"},{"date":"2023-03-04","lowPrice":"11088","highPrice":"26504"},{"date":"2023-03-05","lowPrice":"11277","highPrice":"25987"},{"date":"2023-03-06","lowPrice":"8628","highPrice":"24128"},{"date":"2023-03-07","lowPrice":"9960","highPrice":"25226"},{"date":"2023-03-08","lowPrice":"9125","highPrice":"24833"},{"date":"2023-03-09","lowPrice":"4519","highPrice":"19650"},{"date":"2023-03-10","lowPrice":"7525","highPrice":"22425"},{"date":"2023-03-11","lowPrice":"10563","highPrice":"25878"},{"date":"2023-03-12","lowPrice":"10207","highPrice":"26013"},{"date":"2023-03-13","lowPrice":"8389","highPrice":"23761"},{"date":"2023-03-14","lowPrice":"9488","highPrice":"23792"},{"date":"2023-03-15","lowPrice":"8322","highPrice":"23958"},{"date":"2023-03-16","lowPrice":"3714","highPrice":"19232"},{"date":"2023-03-17","lowPrice":"6107","highPrice":"21674"},{"date":"2023-03-18","lowPrice":"10215","highPrice":"24339"},{"date":"2023-03-19","lowPrice":"9415","highPrice":"24738"},{"date":"2023-03-20","lowPrice":"7380","highPrice":"22178"},{"date":"2023-03-21","lowPrice":"8660","highPrice":"23556"},{"date":"2023-03-22","lowPrice":"7838","highPrice":"22606"},{"date":"2023-03-23","lowPrice":"2627","highPrice":"17875"},{"date":"2023-03-24","lowPrice":"5654","highPrice":"20919"},{"date":"2023-03-25","lowPrice":"8879","highPrice":"24134"},{"date":"2023-03-26","lowPrice":"9718","highPrice":"23648"},{"date":"2023-03-27","lowPrice":"7217","highPrice":"22358"},{"date":"2023-03-28","lowPrice":"7732","highPrice":"24589"},{"date":"2023-03-29","lowPrice":"7899","highPrice":"23465"},{"date":"2023-03-30","lowPrice":"2292","highPrice":"17527"},{"date":"2023-03-31","lowPrice":"6130","highPrice":"21689"},{"date":"2023-04-01","lowPrice":"9737","highPrice":"25015"},{"date":"2023-04-02","lowPrice":"9463","highPrice":"24925"},{"date":"2023-04-03","lowPrice":"7525","highPrice":"22975"},{"date":"2023-04-04","lowPrice":"9001","highPrice":"24357"},{"date":"2023-04-05","lowPrice":"8369","highPrice":"23661"},{"date":"2023-04-06","lowPrice":"4019","highPrice":"19626"},{"date":"2023-04-07","lowPrice":"6526","highPrice":"21891"},{"date":"2023-04-08","lowPrice":"9578","highPrice":"25898"},{"date":"2023-04-09","lowPrice":"10892","highPrice":"26389"},{"date":"2023-04-10","lowPrice":"8987","highPrice":"23934"},{"date":"2023-04-11","lowPrice":"9907","highPrice":"25321"},{"date":"2023-04-12","lowPrice":"9330","highPrice":"24310"},{"date":"2023-04-13","lowPrice":"4615","highPrice":"19809"},{"date":"2023-04-14","lowPrice":"7022","highPrice":"23184"},{"date":"2023-04-15","lowPrice":"10466","highPrice":"26540"},{"date":"2023-04-16","lowPrice":"10919","highPrice":"26244"},{"date":"2023-04-17","lowPrice":"9451","highPrice":"25275"},{"date":"2023-04-18","lowPrice":"9726","highPrice":"25975"},{"date":"2023-04-19","lowPrice":"9547","highPrice":"25559"},{"date":"2023-04-20","lowPrice":"4278","highPrice":"20533"},{"date":"2023-04-21","lowPrice":"7388","highPrice":"22936"},{"date":"2023-04-22","lowPrice":"11420","highPrice":"27199"},{"date":"2023-04-23","lowPrice":"12357","highPrice":"26961"},{"date":"2023-04-24","lowPrice":"10135","highPrice":"24886"},{"date":"2023-04-25","lowPrice":"10793","highPrice":"26059"},{"date":"2023-04-26","lowPrice":"10457","highPrice":"25190"},{"date":"2023-04-27","lowPrice":"5549","highPrice":"21047"},{"date":"2023-04-28","lowPrice":"8107","highPrice":"23400"},{"date":"2023-04-29","lowPrice":"12130","highPrice":"27109"},{"date":"2023-04-30","lowPrice":"12314","highPrice":"27585"},{"date":"2023-05-01","lowPrice":"10002","highPrice":"26352"},{"date":"2023-05-02","lowPrice":"12094","highPrice":"26920"},{"date":"2023-05-03","lowPrice":"10743","highPrice":"26118"},{"date":"2023-05-04","lowPrice":"6386","highPrice":"21386"},{"date":"2023-05-05","lowPrice":"9008","highPrice":"24644"},{"date":"2023-05-06","lowPrice":"12494","highPrice":"28063"},{"date":"2023-05-07","lowPrice":"13101","highPrice":"28698"},{"date":"2023-05-08","lowPrice":"11603","highPrice":"26956"},{"date":"2023-05-09","lowPrice":"12789","highPrice":"28202"},{"date":"2023-05-10","lowPrice":"12083","highPrice":"27864"},{"date":"2023-05-11","lowPrice":"7072","highPrice":"22497"},{"date":"2023-05-12","lowPrice":"10344","highPrice":"25406"},{"date":"2023-05-13","lowPrice":"14158","highPrice":"28995"},{"date":"2023-05-14","lowPrice":"13333","highPrice":"28588"},{"date":"2023-05-15","lowPrice":"11769","highPrice":"27033"},{"date":"2023-05-16","lowPrice":"12515","highPrice":"28422"},{"date":"2023-05-17","lowPrice":"12283","highPrice":"28112"},{"date":"2023-05-18","lowPrice":"7090","highPrice":"22764"},{"date":"2023-05-19","lowPrice":"10285","highPrice":"25356"},{"date":"2023-05-20","lowPrice":"13635","highPrice":"29176"},{"date":"2023-05-21","lowPrice":"14049","highPrice":"29148"},{"date":"2023-05-22","lowPrice":"12017","highPrice":"27026"},{"date":"2023-05-23","lowPrice":"13039","highPrice":"28485"},{"date":"2023-05-24","lowPrice":"12497","highPrice":"27796"},{"date":"2023-05-25","lowPrice":"6484","highPrice":"21892"},{"date":"2023-05-26","lowPrice":"10109","highPrice":"25106"},{"date":"2023-05-27","lowPrice":"13501","highPrice":"28420"},{"date":"2023-05-28","lowPrice":"13172","highPrice":"28889"},{"date":"2023-05-29","lowPrice":"12463","highPrice":"27234"},{"date":"2023-05-30","lowPrice":"12384","highPrice":"27846"},{"date":"2023-05-31","lowPrice":"11529","highPrice":"26537"},{"date":"2023-06-01","lowPrice":"6208","highPrice":"21308"},{"date":"2023-06-02","lowPrice":"9540","highPrice":"24523"},{"date":"2023-06-03","lowPrice":"12958","highPrice":"28414"},{"date":"2023-06-04","lowPrice":"12436","highPrice":"28125"},{"date":"2023-06-05","lowPrice":"11159","highPrice":"26401"},{"date":"2023-06-06","lowPrice":"10982","highPrice":"26970"},{"date":"2023-06-07","lowPrice":"11393","highPrice":"26706"},{"date":"2023-06-08","lowPrice":"5934","highPrice":"21233"},{"date":"2023-06-09","lowPrice":"8499","highPrice":"24055"},{"date":"2023-06-10","lowPrice":"12226","highPrice":"27999"},{"date":"2023-06-11","lowPrice":"11756","highPrice":"28335"},{"date":"2023-06-12","lowPrice":"10209","highPrice":"25327"},{"date":"2023-06-13","lowPrice":"10271","highPrice":"25603"},{"date":"2023-06-14","lowPrice":"10327","highPrice":"25559"},{"date":"2023-06-15","lowPrice":"4404","highPrice":"20648"},{"date":"2023-06-16","lowPrice":"8017","highPrice":"23455"},{"date":"2023-06-17","lowPrice":"10969","highPrice":"26625"},{"date":"2023-06-18","lowPrice":"10906","highPrice":"26370"},{"date":"2023-06-19","lowPrice":"8182","highPrice":"24269"},{"date":"2023-06-20","lowPrice":"9061","highPrice":"24889"},{"date":"2023-06-21","lowPrice":"8225","highPrice":"23892"},{"date":"2023-06-22","lowPrice":"3007","highPrice":"17860"},{"date":"2023-06-23","lowPrice":"5570","highPrice":"20296"},{"date":"2023-06-24","lowPrice":"9037","highPrice":"24809"},{"date":"2023-06-25","lowPrice":"8717","highPrice":"23507"},{"date":"2023-06-26","lowPrice":"6480","highPrice":"21954"},{"date":"2023-06-27","lowPrice":"6974","highPrice":"22612"},{"date":"2023-06-28","lowPrice":"5529","highPrice":"21704"},{"date":"2023-06-29","lowPrice":"155","highPrice":"15404"},{"date":"2023-06-30","lowPrice":"3828","highPrice":"18584"},{"date":"2023-07-01","lowPrice":"6201","highPrice":"21748"},{"date":"2023-07-02","lowPrice":"5842","highPrice":"21128"},{"date":"2023-07-03","lowPrice":"3547","highPrice":"19325"},{"date":"2023-07-04","lowPrice":"4528","highPrice":"19834"},{"date":"2023-07-05","lowPrice":"3921","highPrice":"18875"},{"date":"2023-07-06","lowPrice":"-1210","highPrice":"14195"},{"date":"2023-07-07","lowPrice":"1504","highPrice":"17417"},{"date":"2023-07-08","lowPrice":"4990","highPrice":"20334"},{"date":"2023-07-09","lowPrice":"4716","highPrice":"20559"},{"date":"2023-07-10","lowPrice":"2754","highPrice":"18397"},{"date":"2023-07-11","lowPrice":"4353","highPrice":"19237"},{"date":"2023-07-12","lowPrice":"4096","highPrice":"19453"},{"date":"2023-07-13","lowPrice":"-1075","highPrice":"14294"},{"date":"2023-07-14","lowPrice":"1649","highPrice":"17646"},{"date":"2023-07-15","lowPrice":"5643","highPrice":"21742"},{"date":"2023-07-16","lowPrice":"5684","highPrice":"20617"},{"date":"2023-07-17","lowPrice":"4614","highPrice":"20405"},{"date":"2023-07-18","lowPrice":"5447","highPrice":"21140"},{"date":"2023-07-19","lowPrice":"5752","highPrice":"21082"},{"date":"2023-07-20","lowPrice":"536","highPrice":"16050"},{"date":"2023-07-21","lowPrice":"3865","highPrice":"20287"},{"date":"2023-07-22","lowPrice":"8198","highPrice":"23826"},{"date":"2023-07-23","lowPrice":"8635","highPrice":"23997"},{"date":"2023-07-24","lowPrice":"7497","highPrice":"23111"},{"date":"2023-07-25","lowPrice":"8223","highPrice":"23741"},{"date":"2023-07-26","lowPrice":"7493","highPrice":"22870"},{"date":"2023-07-27","lowPrice":"3115","highPrice":"18568"},{"date":"2023-07-28","lowPrice":"6317","highPrice":"21595"},{"date":"2023-07-29","lowPrice":"10243","highPrice":"25938"},{"date":"2023-07-30","lowPrice":"9801","highPrice":"24989"},{"date":"2023-07-31","lowPrice":"8105","highPrice":"23612"},{"date":"2023-08-01","lowPrice":"9177","highPrice":"24233"},{"date":"2023-08-02","lowPrice":"8739","highPrice":"23800"},{"date":"2023-08-03","lowPrice":"3228","highPrice":"18821"},{"date":"2023-08-04","lowPrice":"5791","highPrice":"21571"},{"date":"2023-08-05","lowPrice":"9452","highPrice":"24271"},{"date":"2023-08-06","lowPrice":"8699","highPrice":"23990"},{"date":"2023-08-07","lowPrice":"6591","highPrice":"21901"},{"date":"2023-08-08","lowPrice":"7150","highPrice":"22308"},{"date":"2023-08-09","lowPrice":"6685","highPrice":"21386"},{"date":"2023-08-10","lowPrice":"594","highPrice":"16498"},{"date":"2023-08-11","lowPrice":"3144","highPrice":"18626"},{"date":"2023-08-12","lowPrice":"5862","highPrice":"21776"},{"date":"2023-08-13","lowPrice":"6345","highPrice":"21211"},{"date":"2023-08-14","lowPrice":"3142","highPrice":"18649"},{"date":"2023-08-15","lowPrice":"3268","highPrice":"19413"},{"date":"2023-08-16","lowPrice":"3074","highPrice":"18750"},{"date":"2023-08-17","lowPrice":"-2569","highPrice":"12487"},{"date":"2023-08-18","lowPrice":"-402","highPrice":"14929"},{"date":"2023-08-19","lowPrice":"3157","highPrice":"18681"},{"date":"2023-08-20","lowPrice":"2497","highPrice":"18400"},{"date":"2023-08-21","lowPrice":"375","highPrice":"15995"},{"date":"2023-08-22","lowPrice":"1315","highPrice":"17198"},{"date":"2023-08-23","lowPrice":"452","highPrice":"16525"},{"date":"2023-08-24","lowPrice":"-4510","highPrice":"10901"},{"date":"2023-08-25","lowPrice":"-1794","highPrice":"13031"},{"date":"2023-08-26","lowPrice":"1452","highPrice":"16999"},{"date":"2023-08-27","lowPrice":"928","highPrice":"17012"},{"date":"2023-08-28","lowPrice":"-480","highPrice":"15205"},{"date":"2023-08-29","lowPrice":"-425","highPrice":"15909"},{"date":"2023-08-30","lowPrice":"-395","highPrice":"15592"},{"date":"2023-08-31","lowPrice":"-5210","highPrice":"9973"},{"date":"2023-09-01","lowPrice":"-2433","highPrice":"13334"},{"date":"2023-09-02","lowPrice":"1390","highPrice":"16977"},{"date":"2023-09-03","lowPrice":"1303","highPrice":"16905"},{"date":"2023-09-04","lowPrice":"-699","highPrice":"15237"},{"date":"2023-09-05","lowPrice":"324","highPrice":"15503"},{"date":"2023-09-06","lowPrice":"-353","highPrice":"15362"},{"date":"2023-09-07","lowPrice":"-5255","highPrice":"10773"},{"date":"2023-09-08","lowPrice":"-1754","highPrice":"12640"},{"date":"2023-09-09","lowPrice":"1112","highPrice":"17098"},{"date":"2023-09-10","lowPrice":"1077","highPrice":"16539"},{"date":"2023-09-11","lowPrice":"-489","highPrice":"14603"},{"date":"2023-09-12","lowPrice":"-100","highPrice":"15554"},{"date":"2023-09-13","lowPrice":"-918","highPrice":"15081"},{"date":"2023-09-14","lowPrice":"-5340","highPrice":"9683"},{"date":"2023-09-15","lowPrice":"-2968","highPrice":"12288"},{"date":"2023-09-16","lowPrice":"630","highPrice":"15905"}]
+=======
+[
+    {
+        "date": "2022-09/01",
+        "price": "1898"
+    },
+    {
+        "date": "2022-09/02",
+        "price": "1916"
+    },
+    {
+        "date": "2022-09/03",
+        "price": "1918"
+    },
+    {
+        "date": "2022-09/04",
+        "price": "1933"
+    },
+    {
+        "date": "2022-09/05",
+        "price": "1935"
+    },
+    {
+        "date": "2022-09/06",
+        "price": "1947"
+    },
+    {
+        "date": "2022-09/07",
+        "price": "1944"
+    },
+    {
+        "date": "2022-09/08",
+        "price": "1953"
+    },
+    {
+        "date": "2022-09/09",
+        "price": "1956"
+    },
+    {
+        "date": "2022-09/10",
+        "price": "1959"
+    },
+    {
+        "date": "2022-09/11",
+        "price": "1955"
+    },
+    {
+        "date": "2022-09/12",
+        "price": "1936"
+    },
+    {
+        "date": "2022-09/13",
+        "price": "1946"
+    },
+    {
+        "date": "2022-09/14",
+        "price": "1946"
+    },
+    {
+        "date": "2022-09/15",
+        "price": "1941"
+    },
+    {
+        "date": "2022-09/16",
+        "price": "1940"
+    },
+    {
+        "date": "2022-09/17",
+        "price": "1936"
+    },
+    {
+        "date": "2022-09/18",
+        "price": "1932"
+    },
+    {
+        "date": "2022-09/19",
+        "price": "1928"
+    },
+    {
+        "date": "2022-09/20",
+        "price": "1921"
+    },
+    {
+        "date": "2022-09/21",
+        "price": "1927"
+    },
+    {
+        "date": "2022-09/22",
+        "price": "1913"
+    },
+    {
+        "date": "2022-09/23",
+        "price": "1921"
+    },
+    {
+        "date": "2022-09/24",
+        "price": "1915"
+    },
+    {
+        "date": "2022-09/25",
+        "price": "1920"
+    },
+    {
+        "date": "2022-09/26",
+        "price": "1920"
+    },
+    {
+        "date": "2022-09/27",
+        "price": "1918"
+    },
+    {
+        "date": "2022-09/28",
+        "price": "1934"
+    },
+    {
+        "date": "2022-09/29",
+        "price": "1934"
+    },
+    {
+        "date": "2022-09/30",
+        "price": "1941"
+    },
+    {
+        "date": "2022-10/01",
+        "price": "1956"
+    },
+    {
+        "date": "2022-10/02",
+        "price": "1962"
+    },
+    {
+        "date": "2022-10/03",
+        "price": "1971"
+    },
+    {
+        "date": "2022-10/04",
+        "price": "1984"
+    },
+    {
+        "date": "2022-10/05",
+        "price": "2005"
+    },
+    {
+        "date": "2022-10/06",
+        "price": "2012"
+    },
+    {
+        "date": "2022-10/07",
+        "price": "2034"
+    },
+    {
+        "date": "2022-10/08",
+        "price": "2047"
+    },
+    {
+        "date": "2022-10/09",
+        "price": "2058"
+    },
+    {
+        "date": "2022-10/10",
+        "price": "2065"
+    },
+    {
+        "date": "2022-10/11",
+        "price": "2073"
+    },
+    {
+        "date": "2022-10/12",
+        "price": "2104"
+    },
+    {
+        "date": "2022-10/13",
+        "price": "2108"
+    },
+    {
+        "date": "2022-10/14",
+        "price": "2116"
+    },
+    {
+        "date": "2022-10/15",
+        "price": "2126"
+    },
+    {
+        "date": "2022-10/16",
+        "price": "2132"
+    },
+    {
+        "date": "2022-10/17",
+        "price": "2125"
+    },
+    {
+        "date": "2022-10/18",
+        "price": "2134"
+    },
+    {
+        "date": "2022-10/19",
+        "price": "2139"
+    },
+    {
+        "date": "2022-10/20",
+        "price": "2120"
+    },
+    {
+        "date": "2022-10/21",
+        "price": "2129"
+    },
+    {
+        "date": "2022-10/22",
+        "price": "2122"
+    },
+    {
+        "date": "2022-10/23",
+        "price": "2113"
+    }
+]
+>>>>>>> f4e367e723288a8fa321f22c86dcdfddb437bebc
