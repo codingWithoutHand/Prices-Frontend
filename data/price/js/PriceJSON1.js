@@ -1,9 +1,9 @@
 const fs = require('fs')
 
 async function main() {
-    makeJSON('./data/rice.txt')
-    makeJSON('./data/gasoline.txt')
-    makeJSON('./data/sweet_potato.txt')
+    makeJSON('./data/price/rice.txt')
+    makeJSON('./data/price/gasoline.txt')
+    makeJSON('./data/price/sweet_potato.txt')
 }
 
 async function makeJSON(txt) {
@@ -16,11 +16,19 @@ async function makeJSON(txt) {
         const date = array[1]
         const rowPrice = array[2]
         const highPrice = array[3]
-        data.push({
-            date: date,
-            lowPrice: rowPrice,
-            highPrice: highPrice
-        })
+
+        if (txt === './data/price/rice.txt') {
+            data.push({
+                date: date,
+                lowPrice: rowPrice
+            })
+        } else {
+            data.push({
+                date: date,
+                lowPrice: rowPrice,
+                highPrice: highPrice
+            })
+        }
     }
     fs.writeFileSync(txt.replaceAll('.txt', '.json'), JSON.stringify(data))
 }

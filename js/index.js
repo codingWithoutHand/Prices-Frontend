@@ -1,5 +1,5 @@
 class App {
-    item = './data/rice.json'
+    item = './data/price/rice.json'
 
     constructor() {
         if (this.isDarkMode()) this.changeTheme(true)
@@ -7,20 +7,28 @@ class App {
         const ctx = document.getElementById('chart').getContext('2d')
         this.drawChart(ctx)
 
-        this.handleItemButtom('rice', './data/rice.json', ctx)
-        this.handleItemButtom('gasoline', './data/gasoline.json', ctx)
-        this.handleItemButtom('sweet-potato', './data/sweet_potato.json', ctx)
+        this.handleItemButtom('rice', './data/price/rice.json', ctx)
+        this.handleItemButtom('gasoline', './data/price/gasoline.json', ctx)
+        this.handleItemButtom('sweet-potato', './data/price/sweet_potato.json', ctx)
 
-        const newsList = ['hello', 'asfjaio', 'dafasdf']
-        for (let i = 0; i < newsList.length; i++) {
-            this.showNews(newsList[i])
-            // time sleep
-        }
+        this.getNews()
     }
 
-    showNews(news) {
+    async getNews() {
+        const newsData = await (await fetch(this.item.replace('price', 'news'))).json()
+        let i = 0
+        setInterval(() => {
+            this.showNews(newsData[i]['article'], newsData[i]['link'])
+            console.log(newsData[i]['article'])
+            i++
+        }, 5000)
+    }
+
+    showNews(news, link) {
         const newsText = document.getElementById('news')
         newsText.innerText = news
+        console.log(link)
+        newsText.href = link
     }
 
     handleItemButtom(id, item, ctx) {
@@ -38,26 +46,45 @@ class App {
         const lowPriceData = jsonData.map(v => v.lowPrice)
         const highPriceData = jsonData.map(v => v.highPrice)
 
-        document.getElementById('price').innerText = ('최종 평균 가격: ' + ((Number.parseFloat(lowPriceData[lowPriceData.length - 1]) + Number.parseFloat(highPriceData[highPriceData.length - 1])) / 2) + ' 원')
-        
-        
-        const data = {
-            labels: labels,
-            datasets: [
-                {
-                    label: '최소 가격 (원)',
-                    backgroundColor: 'rgb(75, 137, 220)',
-                    borderColor: 'rgb(75, 137, 220)',
-                    data: lowPriceData,
-                },
-                {
-                    label: '최대 가격 (원)',
-                    backgroundColor: 'rgb(255, 99, 132)',
-                    borderColor: 'rgb(255, 99, 132)',
-                    data: highPriceData,
-                }
-            ]
+        let data = {}
+
+        if (this.item === './data/price/rice.json') {
+            document.getElementById('price').innerText = ('최종 평균 가격: ' + Number.parseInt((lowPriceData[lowPriceData.length - 1])) + ' 원')
+            data = {
+                labels: labels,
+                datasets: [
+                    {
+                        label: '평균 가격 (원)',
+                        backgroundColor: 'rgb(60, 179, 113)',
+                        borderColor: 'rgb(60, 179, 113)',
+                        data: lowPriceData,
+                        pointRadius: 1
+                    }
+                ]
+            }
+        } else {
+            document.getElementById('price').innerText = ('최종 평균 가격: ' + ((Number.parseFloat(lowPriceData[lowPriceData.length - 1]) + Number.parseFloat(highPriceData[highPriceData.length - 1])) / 2) + ' 원')
+            data = {
+                labels: labels,
+                datasets: [
+                    {
+                        label: '최소 가격 (원)',
+                        backgroundColor: 'rgb(75, 137, 220)',
+                        borderColor: 'rgb(75, 137, 220)',
+                        data: lowPriceData,
+                    },
+                    {
+                        label: '최대 가격 (원)',
+                        backgroundColor: 'rgb(255, 99, 132)',
+                        borderColor: 'rgb(255, 99, 132)',
+                        data: highPriceData,
+                    }
+                ]
+            }
         }
+        
+        
+        
     
         const config = {
             type: 'line',
